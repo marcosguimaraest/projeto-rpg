@@ -12,7 +12,7 @@ Feito com um conjunto de serviços estruturados em uma arquitetura de microsserv
 Os serviços estão organizados em arquitetura de camadas hexagonal, clique para ver o [modelo](https://user-images.githubusercontent.com/86073233/209199986-478711fc-afd2-47ae-8887-4e2a700dc5f9.png).
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/86073233/209236608-b5a71498-3d35-4104-be5e-9b0c3e5afe0d.png" />
+  <img src="https://user-images.githubusercontent.com/86073233/209237232-3ebc7833-87a4-4b21-a792-cb1c08bbcb1d.png" />
 </p>
 
 > ## Detalhes de stack   
