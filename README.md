@@ -2,10 +2,28 @@
 
 ### Plataforma para jogar RPG com amigos.
 
-
 <p align="center">
   <img src="https://media.tenor.com/i2AeJZKldpUAAAAC/pen-pen-evangelion.gif" />
 </p>
+
+# Arquitetura e Stack :tiger:
+Feito com um conjunto de serviços estruturados em uma arquitetura de microsserviços e orientado a eventos 
+
+Os serviços estão organizados em arquitetura de camadas hexagonal, clique para ver o [modelo](https://user-images.githubusercontent.com/86073233/209199986-478711fc-afd2-47ae-8887-4e2a700dc5f9.png).    
+  
+  
+> ## Detalhes de stack   
+> ***A implementação do serviço de autenticação é feita em [Java 17](https://docs.oracle.com/en/java/javase/17/) usando [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/).*** 
+> - A persistência de dados deste serviço é feita em um banco relacional [MySQL](https://dev.mysql.com/doc/). [Modelo de Dados]()  
+> 
+> ***A implementação do serviço de sessões é feita em [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) usando [NodeJS](https://nodejs.org/en/docs/).***  
+> - A persistência de dados deste serviço é feita em um banco não relacional [MongoDB](https://www.mongodb.com/docs/). [Modelo de Dados](). 
+>  
+> ***Os serviços estão integrados a um message broker, implementado com [RabbitMQ](https://www.rabbitmq.com/documentation.html).***  
+> 
+> ***[Bibliotecas Usadas]()***
+
+# Desenvolvimento :whale2: 
 
 ## Regras de Negócio :mailbox:
 
