@@ -9,9 +9,12 @@
 # Arquitetura e Stack :tiger:
 Feito com um conjunto de serviços estruturados em uma arquitetura de microsserviços e orientado a eventos 
 
-Os serviços estão organizados em arquitetura de camadas hexagonal, clique para ver o [modelo](https://user-images.githubusercontent.com/86073233/209199986-478711fc-afd2-47ae-8887-4e2a700dc5f9.png).    
-  
-  
+Os serviços estão organizados em arquitetura de camadas hexagonal, clique para ver o [modelo](https://user-images.githubusercontent.com/86073233/209199986-478711fc-afd2-47ae-8887-4e2a700dc5f9.png).
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/86073233/209236608-b5a71498-3d35-4104-be5e-9b0c3e5afe0d.png" />
+</p>
+
 > ## Detalhes de stack   
 > ***A implementação do serviço de autenticação é feita em [Java 17](https://docs.oracle.com/en/java/javase/17/) usando [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/).*** 
 > - A persistência de dados deste serviço é feita em um banco relacional [MySQL](https://dev.mysql.com/doc/). [Modelo de Dados]()  
@@ -61,7 +64,7 @@ Para criar será necessário escolher o livro de regras e as configurações esp
 > O usuário pode entrar em sessões de jogos do qual foi convidado independendente se a sessão está fechada ou não.   
 Se a sessão estiver fechada o usuário será limitado na sessão podendo apenas editar seu personagem.
 
-## Estudo de Caso :symbols:
+## Diagrama de Caso de Uso :symbols:
 
 ![image](https://user-images.githubusercontent.com/86073233/209179978-bb23657a-1c26-4b5c-9465-fd0057764349.png)
 
