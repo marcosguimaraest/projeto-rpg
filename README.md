@@ -25,6 +25,7 @@ Os serviços estão organizados em arquitetura de camadas hexagonal, clique para
 > - HTML
 > - CSS com Sass, Tailwind
 > - JS com React  
+>
 > ***[Bibliotecas Usadas]()***
 
 # Desenvolvimento :whale2: 
