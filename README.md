@@ -24,7 +24,7 @@ Os serviços estão organizados em arquitetura de camadas hexagonal, clique para
 > No Front-end será usada as seguintes tecnologias:
 > - HTML
 > - CSS com Sass, Tailwind
-> - JS com React
+> - JS com React  
 > ***[Bibliotecas Usadas]()***
 
 # Desenvolvimento :whale2: 
