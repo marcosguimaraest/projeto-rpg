@@ -22,8 +22,8 @@ Os serviços estão organizados em arquitetura de camadas hexagonal, clique para
 > ***Os serviços estão integrados a um message broker, implementado com [RabbitMQ](https://www.rabbitmq.com/documentation.html).***  
 > 
 > No Front-end será usada as seguintes tecnologias:
-> - HTML
-> - CSS com [Sass](https://sass-lang.com/documentation/), [Tailwind](https://tailwindcss.com/docs/installation)
+> - HTML5
+> - CSS3 com [Sass](https://sass-lang.com/documentation/), [Tailwind](https://tailwindcss.com/docs/installation)
 > - [Metodologia BEM](https://en.bem.info/methodology/)
 > - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
 >
