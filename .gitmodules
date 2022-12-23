@@ -1,0 +1,3 @@
+[submodule "identificacao-ms"]
+	path = identificacao-ms
+	url = https://github.com/toxxxey/identificacao-rpg-ms.git
