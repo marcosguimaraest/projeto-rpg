@@ -26,7 +26,7 @@ Os serviços estão organizados em arquitetura de camadas hexagonal, clique para
 > 
 > No Front-end será usada as seguintes tecnologias:
 > - HTML5
-> - CSS3 com [Sass](https://sass-lang.com/documentation/), [Tailwind](https://tailwindcss.com/docs/installation)
+> - CSS3 com [Sass](https://sass-lang.com/documentation/)
 > - [Metodologia BEM](https://en.bem.info/methodology/)
 > - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
 >
