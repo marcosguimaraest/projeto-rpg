@@ -1,70 +1,22 @@
 # Projeto RPG :snowflake: 
 
 ### Plataforma para jogar RPG com amigos.
+- ### [Documentação Técnica](https://github.com/toxxxey/projeto-rpg/blob/master/docs.md) 
 
 <p align="center">
   <img src="https://media.tenor.com/i2AeJZKldpUAAAAC/pen-pen-evangelion.gif" />
 </p>
 
-# Arquitetura e Stack :tiger:
-Feito com um conjunto de serviços estruturados em uma arquitetura de microsserviços e orientado a eventos 
+# Introdução 
 
-Os serviços estão organizados em arquitetura de camadas hexagonal, clique para ver o [modelo](https://user-images.githubusercontent.com/86073233/209199986-478711fc-afd2-47ae-8887-4e2a700dc5f9.png).
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/86073233/209372607-609e01a4-fd1e-455d-8fa7-41e4a30aba14.png" />
-</p>
-
-> ## Detalhes de stack   
-> ***A implementação do serviço de autenticação é feita em [Java 17](https://docs.oracle.com/en/java/javase/17/) usando [Spring Boot](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/).*** 
-> - A persistência de dados deste serviço é feita em um banco relacional [MySQL](https://dev.mysql.com/doc/). [Modelo de Dados]()  
-> 
-> ***A implementação do serviço de sessões é feita em [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) usando [NodeJS](https://nodejs.org/en/docs/).***  
-> - A persistência de dados deste serviço é feita em um banco não relacional [MongoDB](https://www.mongodb.com/docs/). [Modelo de Dados](). 
->  
-> ***Os serviços estão integrados a um message broker, implementado com [RabbitMQ](https://www.rabbitmq.com/documentation.html).***  
-> 
-> No Front-end é usado as seguintes tecnologias:
-> - HTML5
-> - CSS3 com [Sass](https://sass-lang.com/documentation/)
-> - [Metodologia BEM](https://en.bem.info/methodology/)
-> - [ReactJS](https://pt-br.reactjs.org/docs/getting-started.html)
+> Olá! Seja bem-vindo ao nosso __Projeto de RPG__ online para jogar com amigos. Aqui, você poderá criar seu próprio personagem e se juntar a outros jogadores em aventuras em mundos de fantasias já prontos, ou, se você preferir, criar o seu próprio universo.
 >
-> ***[Bibliotecas Usadas]()***
+> Com nossa plataforma, é fácil organizar sessões de jogo com seus amigos e explorar os limites da sua imaginação. Não importa se você é um jogador experiente ou está   começando do zero, temos tudo o que você precisa para ter uma experiência divertida e imersiva de RPG.
 
-# Desenvolvimento :whale2: 
+# Por que?
 
-## Regras de Negócio :mailbox:
-
-### Cadastramento
-> Para se cadastrar o usuário deverá informar o seu email.  
-> Caso o email seja verificado o usuário poderá informar o seu nome, o seu apelido, o seu avatar, sua senha e opcionalmente seu número de celular.
-
-### Login
-> Para se logar o usuário deverá informar o seu apelido ou email e sua senha.  
-Caso a autenticação de duas fatores esteja ativada o usuário receberá um código pelo celular ou email para seguir no sistema.
-
-### Amigos e Mensagens
-> Todo usuário cadastrado pode ter amigos e enviar mensagens ou convites de jogos.  
-Para adicionar um amigo deverá informar o seu apelido.
-
-### Personagens
-> O usuário pode deixar personagems criados para poder entrar em jogos novos.  
-Cada personagem tem seu avatar próprio e ficha com história e atributos
-
-### Jogo
-> O usuário pode entrar em um jogo já em andamento ou novo.   
-Para entrar no jogo o usuário deverá ter um personagem criado
-
-### Criação de Jogo
-> O usuário pode criar um jogo como mestre.  
-Para criar será necessário escolher o livro de regras e as configurações específicas.
-
-### Sessões
-> O usuário pode entrar em sessões de jogos do qual foi convidado independendente se a sessão está fechada ou não.   
-Se a sessão estiver fechada o usuário será limitado na sessão podendo apenas editar seu personagem.
-
-## Diagrama de Caso de Uso :symbols:
-
-![image](https://user-images.githubusercontent.com/86073233/209179978-bb23657a-1c26-4b5c-9465-fd0057764349.png)
-
+> As outras plataformas de RPG online tem uma coisa em comum: __Não serem totalmente gratuitas__  
+>
+> Nesse projeto tudo é completamente __free-to-play__ sem precisar comprar livros de regras ou assets pra criar seus próprios mapas nem mesmo fichas de personagens.
+>
+> Tudo isso é customizável pelo jogador, dando infinita liberdade de imaginação.
